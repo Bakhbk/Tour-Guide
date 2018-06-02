@@ -1,0 +1,365 @@
+<resources>
+    <string name="app_name">Tour Guide</string>
+
+    <!--For action Bar-->
+    <string name="drawer_open">Open navigation drawer</string>
+    <string name="drawer_close">Close navigation drawer</string>
+
+    <!-- Category name for monuments [CHAR LIMIT=20] -->
+    <string name="category_monuments">Monuments</string>
+
+    <!-- Category name for the vocabulary words for bridges [CHAR LIMIT=20] -->
+    <string name="category_bridges">Bridges</string>
+
+    <!-- Category name for the vocabulary words for museums [CHAR LIMIT=20] -->
+    <string name="category_museums">Museums</string>
+
+    <!-- Category name for the vocabulary words for family cathedrals_churches [CHAR LIMIT=20] -->
+    <string name="category_cathedrals_churches">Cathedrals</string>
+
+    <!--Header name-->
+    <string name="sights_spb_for_header">Sights of Saint-Petersburg</string>
+
+
+    <!--Start - Cathedrals-->
+
+    <!--Start - Cathedrals Alexander Nevsky Lavra-->
+    <string name="cath_text_alex_nev_0">Alexander Nevsky Lavra</string>
+    <string name="cath_text_alex_nev_1">Saint Alexander Nevsky Monastery was founded by Peter I of Russia in 1710</string>
+    <string name="cath_text_alex_nev_2">Saint Alexander Nevsky Lavra or Saint
+        Alexander Nevsky Monastery was founded by Peter I of Russia in 1710 at the eastern end of
+        the Nevsky Prospekt in Saint Petersburg supposing that that was the site of the Neva Battle
+        in 1240 when Alexander Nevsky, a prince, defeated the Swedes; however, the battle actually
+        took place about 12 miles (19 km) away from that site. "On April 5, 1713, in St. Petersburg, in the presence of Peter I, the wooden Church of the Annunciation was consecrated. This day is considered the official founding date of the Alexander Nevsky Lavra."
+    </string>
+
+    <!--Start - Saint Isaac's Cathedral-->
+    <string name="cath_text_isaac_0">Saint Isaac\'s Cathedral</string>
+    <string name="cath_text_isaac_1">Is the largest Russian Orthodox cathedral (sobor) in the city.</string>
+    <string name="cath_text_isaac_2">It is the largest orthodox basilica and the fourth largest (by the volume under the cupola)
+        cathedral in the world. It is dedicated to Saint Isaac of Dalmatia, a patron saint
+        of Peter the Great, who had been born on the feast day of that saint.</string>
+
+    <!--Start - Kazan Cathedral-->
+    <string name="cath_text_kazan_0">Kazan Cathedral</string>
+    <string name="cath_text_kazan_1">Is a cathedral of the Russian Orthodox Church</string>
+    <string name="cath_text_kazan_2">Kazan Cathedral or Kazanskiy Kafedralniy Sobor, also known as the Cathedral of Our Lady of Kazan.
+        It is dedicated to Our Lady of Kazan, probably the most venerated icon in Russia</string>
+
+    <!--Start - Saint Nicholas Naval Cathedral-->
+    <string name="cath_text_st_nicholas_0">Saint Nicholas Naval Cathedral</string>
+    <string name="cath_text_st_nicholas_1">Is a major Baroque Orthodox cathedral in the western part of Central Saint Petersburg</string>
+    <string name="cath_text_st_nicholas_2">It has always been closely associated with the Russian Navy, serving as its main shrine
+        until the Russian Revolution. In the upper church there are numerous memorial plaques for the crews of the sunken
+        Soviet submarines, including K-278 Komsomolets. The crew of the submarine K-141 Kursk has also been commemorated ther</string>
+
+    <!--Start - Saints Peter and Paul Cathedral-->
+    <string name="cath_text_paul_0">Saints Peter and Paul Cathedral</string>
+    <string name="cath_text_paul_1">It is the first and oldest landmark in St. Petersburg, built between 1712 and 1733 on Hare Island along the Neva River</string>
+    <string name="cath_text_paul_2">Both the cathedral and the fortress were originally built under Peter the Great and designed by Domenico Trezzini.
+        The cathedral\'s bell tower is the world\'s tallest Orthodox bell tower.Since the belfry is not standalone,
+        but an integral part of the main building, the cathedral is sometimes considered the highest Orthodox Church in the world.
+        There is another Cathedral of Saints Peter and Paul Church in St.
+        Petersburg, located in Petergof.</string>
+
+    <!--Start - Church of the Savior on Blood-->
+    <string name="cath_text_savior_0">Church of the Savior on Blood</string>
+    <string name="cath_text_savior_1">This church was built on the site where Emperor Alexander II was fatally wounded by political nihilists in March 1881.</string>
+    <string name="cath_text_savior_2">The Church of the Savior on Spilled Blood  is one of the main sights of Saint Petersburg,
+        Russia. Other names include the Church on Spilled Blood , the Temple of the Savior on Spilled Blood , and the Cathedral of the Resurrection of Christ.</string>
+
+    <!--Start - Trinity Cathedral-->
+    <string name="cath_text_trinity_0">Trinity Cathedral</string>
+    <string name="cath_text_trinity_1">Sometimes called the Troitsky Cathedral, built between 1828 and 1835 to a design by Vasily Stasov.</string>
+    <string name="cath_text_trinity_2">The cathedral, which can accommodate up to 3,000 visitors, has only recently begun to be restored to
+        its pre-Revolutionary splendor after years of neglect. In honor of the victory in the Russo-Turkish War, 1877-1878,
+        when the Russians liberated Bulgaria from the Ottoman domination, a memorial column was constructed in front of the
+        northern facade of the cathedral in 1886. The cathedral became a part of the Saint Petersburg World Heritage Site in 1990.</string>
+
+    <!--Start - Chesme Church-->
+    <string name="cath_text_chesme_0">Chesme Church</string>
+    <string name="cath_text_chesme_1">Is a small Russian Orthodox church, It was built by the Russian court architect Yury Felten in 1780</string>
+    <string name="cath_text_chesme_2">At the direction of Catherine the Great, Empress of Russia. A memorial church, it was erected
+        adjacent to the Chesme Palace (damaged during the Siege of Leningrad and restored in 1946) between Saint Petersburg and
+        Tsarskoye Selo to commemorate the anniversary of Russia\'s 1770 victory over Turkish forces in Chesme Bay in the Aegean Sea
+        during the Russo-Turkish War of 1768–1774.</string>
+
+
+    <!--Start - Bridges-->
+
+    <!--Start - Anichkov Bridge-->
+    <string name="bridges_text_anichkov_0">Anichkov Bridge</string>
+    <string name="bridges_text_anichkov_1">Is the oldest and most famous bridge across the Fontanka River in Saint Petersburg.</string>
+    <string name="bridges_text_anichkov_2">The current bridge, built in 1841-42 and reconstructed in 1906-08,
+        combines a simple form with some spectacular decorations. As well as its four famous horse sculptures (1849–50),
+        the bridge has some of the most celebrated ornate iron railings in Saint Petersburg.
+        The structure is mentioned in the works of Pushkin, Gogol, and Dostoevsky.</string>
+
+    <!--Start - Bank Bridge-->
+    <string name="bridges_text_bank_0">Bank Bridge</string>
+    <string name="bridges_text_bank_1">Is a 25-m-long pedestrian bridge crossing the
+        Griboedov Canal near the former Assignation Bank in Saint Petersburg.</string>
+    <string name="bridges_text_bank_2">Like other bridges across the canal, the existing structure
+        dates from 1826. The bridge engineer was Wilhelm von Traitteur, who conceived of a pedestrian separation
+        structure suspended by cables. He was an engineer who also built other bridges over
+        the Griboyedov Canal, Fontanka and Moika. The general management of the bridge construction
+        was carried out by colonel E. A. Adam.</string>
+
+    <!--Start - Annunciation Bridge-->
+    <string name="bridges_text_annunciation_0">Annunciation Bridge</string>
+    <string name="bridges_text_annunciation_1">The Blagoveschensky (Annunciation) Bridge
+        is the first permanent bridge built across the Neva River in Saint Petersburg.</string>
+    <string name="bridges_text_annunciation_2">It connects Vasilievsky Island and the central
+        part of the city (Admiralteysky raion). The bridge\'s length is 331 meters and the width was
+        24 meters. The original name of the bridge was Nevsky Bridge. It was later renamed
+        Blagoveshchensky Bridge. After the death of Tsar Nicholas I, it was named Nikolaevsky Bridge
+        in his honor, and in 1918 it was renamed for Lieutenant Schmidt.</string>
+
+    <!--Start - Bolsheokhtinsky Bridge-->
+    <string name="bridges_text_bolsheokhtinsky_0">Bolsheokhtinsky Bridge</string>
+    <string name="bridges_text_bolsheokhtinsky_1">Is a bridge across the Neva River in Saint Petersburg.</string>
+    <string name="bridges_text_bolsheokhtinsky_2">The bridge\'s length is 334 meters, the width is
+        23 meters. The bridge features only three spans, the central one can be drawn.
+        The initial idea to build a bridge near the Okhta river was circulated in 1829. Even before the Saint
+        Petersburg was founded, there were settlements in the Okhta region, and with the
+        growth of the city, it quickly grew to become big industrial center. Powder
+        factories and shipyards existed here. However, in the 19th century, Okhta district
+        wasn't officially part of Saint Petersburg. The bridge was essential for the developing
+        industry, and Nicholas I approved the bridge as part of strategic city development plan</string>
+
+    <!--Start -  Bolshoy Obukhovsky Bridge-->
+    <string name="bridges_text_obukhovsky_0">Bolshoy Obukhovsky Bridge</string>
+    <string name="bridges_text_obukhovsky_1">Is the newest bridge across the Neva
+        River in Saint Petersburg. </string>
+    <string name="bridges_text_obukhovsky_2">It is also the only bridge across the Neva which is
+        not a drawbridge. It is located in Nevsky District, in the middle stream of the Neva.
+        It connects Obukhovskaya Oborona Prospekt with Oktyabrskaya Embankment.
+        It is a cable-stayed bridge; the steel wire ropes are the key element of supporting construction.</string>
+
+    <!--Start -  Palace Bridge -->
+    <string name="bridges_text_palace_0">Palace Bridge</string>
+    <string name="bridges_text_palace_1">Palace Bridge, a road- and foot-traffic bascule bridge,
+        spans the Neva River in Saint Petersburg between Palace Square and Vasilievsky Island.</string>
+    <string name="bridges_text_palace_2">Like every other Neva bridge (except for Big Obukhovsky Bridge),
+        it is drawn by night, making foot travel between various parts of the city virtually impossible.
+        It was built by the French firm Société de Construction des Batignolles between 1912 and 1916.</string>
+
+    <!--Start -  Liteyny Bridge-->
+    <string name="bridges_text_liteyny_0">Liteyny Bridge</string>
+    <string name="bridges_text_liteyny_1">Is the second permanent bridge across the Neva river in Saint Petersburg.</string>
+    <string name="bridges_text_liteyny_2">It connects Liteyny Prospekt with Vyborgsky district. The
+        bridge\'s length is 396 meters, the width is 34 meters. At the vicinity of the Liteyny
+        Bridge, the Neva river reaches the maximum depth of 24 meters.</string>
+
+    <!--Start -  Trinity Bridge-->
+    <string name="bridges_text_trinity_0">Trinity Bridge</string>
+    <string name="bridges_text_trinity_1">Troitskiy(Trinity Bridge) is a bascule bridge across the Neva in Saint Petersburg</string>
+    <string name="bridges_text_trinity_2">It connects Kamennoostrovsky Prospect with Suvorovskaya Square.
+        It was the third permanent bridge across the Neva, built between 1897 and 1903 by the
+        French firm Societe de Construction des Batignolles. It is 582 meters (1,909 ft)
+        long and 23.6 meters (77 ft) wide.</string>
+
+    <!--Start - Museums-->
+
+    <!--Start - Cabin of Peter the Great-->
+    <string name="museums_text_cabin_peter_0">Cabin of Peter the Great</string>
+    <string name="museums_text_cabin_peter_1">The cabin
+        was moved to its present location, 6 Petrovskaia Naberezhnaia, in 1711 from its
+        original site on the north bank of the River Neva close to the present Winter Palace.</string>
+    <string name="museums_text_cabin_peter_2">Peter had it encased for its protection within
+        a red brick pavilion in 1723, and ordered that it be preserved for posterity as a memorial
+        to his modesty, and the creation of St Petersburg ex nihilo. Catherine the Great ordered
+        the shelter for the cabin to be renovated in 1784, and the protective brick pavilion was
+        reconstructed by Nicholas I in the 1840s. Nicholas I also had the bedroom converted into
+        a chapel dedicated to Christ the Redeemer, and iron railings were added in 1874. is a small
+        wooden house which was the first St Petersburg "palace" of Tsar Peter the Great.</string>
+
+    <!--Start - Krassin-->
+    <string name="museums_text_krassin_0">Krassin (1917 icebreaker)</string>
+    <string name="museums_text_krassin_1">The first icebreaker Krassin was
+        built for the Imperial Russian Navy as Svyatogor.</string>
+    <string name="museums_text_krassin_2">She had a long, distinguished career in rescue
+        operations, as well as a pathfinder and explorer of the Northern Sea Route. She has been
+        fully restored to operating condition and is now a museum ship in Saint-Petersburg.
+        History and service The icebreaker was built by Armstrong Whitworth in Newcastle upon
+        Tyne under the supervision of Yevgeny Zamyatin.[4] The vessel was launched as the Svyatogor
+        on 3 August 1916 and completed in February 1917. Up to the beginning of the 1950s she
+        remained the most powerful icebreaker in the world.</string>
+
+    <!--Start - Russian cruiser Aurora -->
+    <string name="museums_text_aurora_0">Russian cruiser Aurora</string>
+    <string name="museums_text_aurora_1">Aurora  is a 1900 Russian protected cruiser,
+        currently preserved as a museum ship in Saint Petersburg.</string>
+    <string name="museums_text_aurora_2">Aurora was one of three Pallada-class cruisers,
+        built in Saint Petersburg for service in the Pacific. All three ships of this class
+        served during the Russo-Japanese War. Aurora survived the Battle of Tsushima and was
+        interned under US protection in the Philippines, and eventually returned to the Baltic Fleet.</string>
+
+    <!--Start - Kunstkamera-->
+    <string name="museums_text_kunstkamera_0">Kunstkamera</string>
+    <string name="museums_text_kunstkamera_1">The Kunstkamera was established by Peter the Great on the Neva Riverfront.</string>
+    <string name="museums_text_kunstkamera_2">The turreted Petrine Baroque building of the
+        Kunstkamera designed by Georg Johann Mattarnovy was completed by 1727.
+        The foundation stone for the Kunstkammer was laid in 1719. The name Kunstkamera
+        is derived from German Kunstkammer, literally meaning "Art chamber".</string>
+
+    <!--Start - Fabergé Museum-->
+    <string name="museums_text_faberge_0">Fabergé Museum</string>
+    <string name="museums_text_faberge_1">Is a privately-owned museum which was established by
+        Viktor Vekselberg and his Link of Times foundation in order to repatriate lost cultural
+        valuables to Russia.</string>
+    <string name="museums_text_faberge_2">The museum is located in the center of Saint Petersburg
+        at Shuvalov Palace (21, Fontanka River Embankment) on the Fontanka River. The museum\'s
+        collection contains more than 4,000 works of decorative applied and fine arts, including
+        gold and silver items, paintings, porcelain and bronze. A highlight of the museum\'s
+        collection is the group of nine Imperial Easter eggs created by Fabergé for the last
+        two Russian. Tsars idea of creating a special museum devoted to the creative work of
+        the great Russian jeweler Peter Carl Fabergé came to the Link of Times foundation after
+        the purchase by Vekselberg in 2004 of a unique collection of Fabergé masterpieces that had
+        been owned by the late Malcolm Forbes. Since then, the Link of Times foundation began
+        building a collection of Russian decorative applied and fine arts, which contains more than
+        4,000 works. All of the Imperial Easter eggs in the museum's collection are connected
+        to the rule and personal life of the last two Russian emperors — Alexander III and Nicolas II.</string>
+
+    <!--Start - Tsarskoye Selo-->
+    <string name="museums_text_tsarskoye_0">Tsarskoye Selo</string>
+    <string name="museums_text_tsarskoye_1">Tsarskoye Selo is a museum-preserve in the city
+        of Pushkin.</string>
+    <string name="museums_text_tsarskoye_2"> Which includes a palace and park ensemble of the XVIII-XIX
+        centuries, a former royal residence in the country, turned into a museum after
+        nationalization in March 1918. The museum received its modern name in 1992.
+        The museum-reserve includes: Ekaterina Park with a palace and pavilions, Alexander
+        Park with a palace and pavilions and Babolovsky Park with a palace.
+        It occupies an area of 107 hectares. It consists of the regular Old
+        Garden and the landscape English Park (1760-1796, garden masters J. Bush, T. Ilyin,
+        architect V. I. Neelov), separated by the Great Pond. Named after the Empress Catherine I.</string>
+
+    <!--Start - Russian Museum-->
+    <string name="museums_text_russian_0">Russian Museum</string>
+    <string name="museums_text_russian_1">The State Russian Museum, formerly the Russian Museum
+        of His Imperial Majesty Alexander III is the largest depository of Russian fine art in Saint Petersburg. </string>
+    <string name="museums_text_russian_2">It is also one of the largest museums in the country.
+        The museum was established on April 13, 1895, upon enthronement of Nicholas II to
+        commemorate his father, Alexander III. Its original collection was composed of artworks
+        taken from the Hermitage Museum, Alexander Palace, and the Imperial Academy of Arts. After
+        the Russian Revolution of 1917, many private collections were nationalized and relocated to
+        the Russian Museum. These included Kazimir Malevich's Black Square.</string>
+
+    <!--Start - Hermitage Museum-->
+    <string name="museums_text_hermitage_0">Hermitage Museum</string>
+    <string name="museums_text_hermitage_1">The State Hermitage Museum In 1764, Catherine
+        commissioned Yury Felten to build an extension on the east of the Winter Palace which he
+        completed in 1766.</string>
+    <string name="museums_text_hermitage_2">Later it became the Southern Pavilion of the Small Hermitage.
+        In 1767–1769, French architect Jean-Baptiste Vallin de la Mothe built the Northern Pavilion on the Neva embankment.
+        Between 1767 and 1775, the extensions were connected by galleries, where Catherine put her
+        collections.The entire neoclassical building is now known as the Small Hermitage.
+        During the time of Catherine, the Hermitage was not a public museum and few people
+        were allowed to view its holdings. Jean-Baptiste Vallin de la Mothe also rebuilt rooms in
+        the second story of the south-east corner block that was originally built for Elizabeth and
+        later occupied by Peter III. </string>
+
+    <!--Start - Amber Room.-->
+    <string name="museums_text_amber_0">Amber Room.</string>
+    <string name="museums_text_amber_1">The Amber Room is a reconstructed chamber decorated
+        in amber panels backed with gold leaf and mirrors, located in the Catherine Palace of
+        Tsarskoye Selo near Saint Petersburg.</string>
+    <string name="museums_text_amber_2">Constructed in the 18th century in Prussia,
+        the original Amber Room was dismantled and eventually disappeared during World War II.
+        Before its loss, it was considered an "Eighth Wonder of the World". A reconstruction was
+        installed in the Catherine Palace between 1979 and 2003.The Amber Room was intended in 1701
+        for the Charlottenburg Palace, in Berlin, Prussia, but was eventually installed at the
+        Berlin City Palace. It was designed by German baroque sculptor Andreas Schlüter and
+        Danish amber craftsman Gottfried Wolfram. Schlüter and Wolfram worked on the room until
+        1707, when work was continued by amber masters Gottfried Turau and Ernst Schacht from Danzig.
+        It remained in Berlin until 1716, when it was given by the Prussian King Frederick William
+        I to his then ally, Tsar Peter the Great of the Russian Empire. In Russia, the room was
+        expanded, and after several renovations, it covered more than 55 square metres (590 sq ft)
+        and contained over 6 tonnes (13,000 lb) of amber.The Amber Room was looted during World War
+        II by the Army Group North of Nazi Germany, and brought to Königsberg for reconstruction
+        and display. Its current whereabouts remain a mystery. In 1979, efforts were undertaken to
+        rebuild the Amber Room at Tsarskoye Selo. In 2003, after decades of work by Russian
+        craftsmen and donations from Germany, the reconstructed Amber Room was inaugurated at
+        the Catherine Palace.</string>
+
+    <!--Start - Monuments-->
+
+    <!--Start - Bronze Horseman.-->
+    <string name="monuments_text_horseman_0">Bronze Horseman.</string>
+    <string name="monuments_text_horseman_1">The Bronze Horseman is an equestrian statue of Peter the
+        Great in the Senate Square in Saint Petersburg.</string>
+    <string name="monuments_text_horseman_2">Commissioned by Catherine the Great, it was created by the
+        French sculptor Étienne Maurice Falconet. The name comes from an 1833 poem of the same name
+        by Aleksander Pushkin, which is widely considered one of the most significant works of
+        Russian literature. The statue is now one of the symbols of Saint Petersburg.
+        Poem The Bronze Horseman is the title of a poem written by Aleksandr Pushkin in 1833,
+        widely considered to be one of the most significant works of Russian literature.
+        Due to the popularity of his work, the statue came to be called the "Bronze Horseman".
+        A major theme of the poem is conflict between the needs of the state and the
+        needs of ordinary citizens</string>
+
+    <!--Start - Alexander Column-->
+    <string name="monuments_text_alex_column_0">Alexander Column</string>
+    <string name="monuments_text_alex_column_1">Column The Alexander also known as Alexandrian Column,
+        is the focal point of Palace Square in Saint Petersburg.</string>
+    <string name="monuments_text_alex_column_2">The monument was raised after the Russian victory
+        in the war with Napoleon\'s France. The column is named for Emperor Alexander I of Russia,
+        who reigned from 1801–25.The Alexander Column was designed by the French-born architect
+        Auguste de Montferrand, built between 1830 and 1834 with Swiss-born architect Antonio Adamini,
+        and unveiled on 30 August 1834. The monument is claimed to be the tallest of its kind in
+        the world at 47.5 m (155 ft 8 in) tall and is topped with a statue of an angel holding a
+        cross, as a triumphal column it may be the highest but the Monument to the Great Fire of
+        London is a freestanding column 62 m high. As a monolith that has been quarried, moved and
+        erected it is the heaviest recorded. The statue of the angel was designed by the Russian
+        sculptor Boris Orlovsky. The face of the angel bears great similarity to the face
+        of Emperor Alexander.</string>
+
+    <!--Start - Narva Triumphal Arch-->
+    <string name="monuments_text_narva_0">Narva Triumphal Arch</string>
+    <string name="monuments_text_narva_1">The Narva Triumphal Arch was erected in the vast Narva Square
+        (known as Stachek Square since 1923), Saint Petersburg, in 1814 to commemorate the
+        Russian victory over Napoleon.</string>
+    <string name="monuments_text_narva_2">The wooden structure was constructed on the Narva highway
+        with the purpose of greeting the soldiers who were returning from abroad after their victory
+        over Napoleon. The architect of the original Narva Arch was Giacomo Quarenghi.
+        The program was meant to respond to the Arc de Triomphe du Carrousel in Paris,
+        originally erected to celebrate Napoleon's victory over the Allies at Austerlitz,
+        but the material used was a weather-resistant plaster that was never intended to be permanent.</string>
+
+    <!--Start - Monument to Nicholas I-->
+    <string name="monuments_text_nicholas_0">Monument to Nicholas I</string>
+    <string name="monuments_text_nicholas_1">The Monument to Nicholas I is a bronze equestrian monument of
+        Nicholas I of Russia on St Isaac's Square (in front of Saint Isaac's Cathedral) in Saint Petersburg.</string>
+    <string name="monuments_text_nicholas_2">Unveiled on July 7th  1859, the six-meter statue was a
+        technical wonder of its time. It was the first equestrian statue in Europe with only two
+        support points (the rear hooves of the horse), the only precedent being the 1852 equestrian
+        statue of U.S President Andrew Jackson.The Neo-Baroque monument to the Russian ruler Nicholas
+        I was designed by the French-born architect Auguste de Montferrand in 1856.</string>
+
+    <!--Start - Monument to Peter I (Peter and Paul Fortress)-->
+    <string name="monuments_text_peter1_0">Monument to Peter I (Peter and Paul Fortress)</string>
+    <string name="monuments_text_peter1_1">Chemiakin worked on the statue for eight years and made
+        three versions, two others being located in Normandy, France, and in Claverack, New York,
+        where Chemiakin lived at the tim</string>
+    <string name="monuments_text_peter1_2">According to Chemiakin, the idea for making a statue
+        originated from his friend Vladimir Vysotsky. Chemiakin started with the 1:1 proportions
+        of the Rastrelli's wax figure, but gradually elongated the body,
+        approaching the style of Russian icons.</string>
+
+    <!--Start - Quay with Sphinxes -->
+    <string name="monuments_text_sphinxes_0">Quay with Sphinxes</string>
+    <string name="monuments_text_sphinxes_1">The acquisition of sphinxes at the University embankment
+        in front of the Academy of Arts in St. Petersburg is credited to Andrei Muravyov.</string>
+    <string name="monuments_text_sphinxes_2">Who in 1830 was going on a pilgrimage to holy places.
+        In Alexandria he saw the sphinxes, which were brought for sale. Ancient sculptures made
+        him so impressed that he immediately sent a letter to the Russian Ambassador, in which he
+        proposed to acquire them. From the Embassy the letter was directed to St. Petersburg.
+        There its receiver, Nicholas I, redirected the message to the Russian Academy of Arts.
+        In the end, such a purchase was deemed expedient, but by the time these bureaucratic
+        complications were resolved, the owner had already sold sphinxes to France. Only because
+        of the French Revolution they at last arrived in Saint Petersburg in 1832.</string>
+    <!--Welcome to SPb-->
+    <string name="welcome_to_spb">Welcome to Saint-Petersburg, Russia!</string>
+    <string name="welcome_to_spb_2">Our guide will help you to sort out a little of the great variety of sights of St. Petersburg!</string>
+
+</resources>

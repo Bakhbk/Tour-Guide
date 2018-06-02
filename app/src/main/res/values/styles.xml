@@ -1,0 +1,12 @@
+<resources>
+
+    <!-- ///!!! To use the Toolbar as an ActionBar, i  disabled the default ActionBar/// Base application theme.  -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/primary_color</item>
+        <item name="colorPrimaryDark">@color/primary_dark_color</item>
+        <item name="colorAccent">@color/color_accent</item>
+    </style>
+
+
+</resources>
