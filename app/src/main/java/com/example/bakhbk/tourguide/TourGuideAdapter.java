@@ -9,9 +9,10 @@ import android.view.ViewGroup;
 import android.widget.ArrayAdapter;
 import android.widget.ImageView;
 import android.widget.TextView;
+
 import java.util.ArrayList;
 
-public class TourGuideAdapter extends ArrayAdapter<Word> {
+public class TourGuideAdapter extends ArrayAdapter<SightOfAttraction> {
 
     /**
      * Resource ID for the background color for this list of words
@@ -23,14 +24,14 @@ public class TourGuideAdapter extends ArrayAdapter<Word> {
     // The context is used to inflate the layout file, and the list is the data we want
     // to populate into the lists.
     // @param context        The current context. Used to inflate the layout file.
-    // @param androidWords A List of TourGuideAdapter objects to display in a list
+    // @param androidSightOfAttractions A List of TourGuideAdapter objects to display in a list
     // @param colorResourceId is the resource ID for the background color for this list of words
-    public TourGuideAdapter(Activity context, ArrayList<Word> androidWords, int colorResourceId) {
+    public TourGuideAdapter(Activity context, ArrayList<SightOfAttraction> androidSightOfAttractions, int colorResourceId) {
         // Here, we initialize the ArrayAdapter's internal storage for the context and the list.
         // the second argument is used when the ArrayAdapter is populating a single TextView.
         // Because this is a custom adapter for two TextViews and an ImageView, the adapter is not
         // going to use this second argument, so it can be any value. Here, we used 0.
-        super(context, 0, androidWords);
+        super(context, 0, androidSightOfAttractions);
         mColorResourceId = colorResourceId;
     }
 
@@ -42,32 +43,31 @@ public class TourGuideAdapter extends ArrayAdapter<Word> {
     @Override
     public View getView(int position, View convertView, ViewGroup parent) {
         // Check if the existing view is being reused, otherwise inflate the view
-        View listItemView = convertView;
-        if (listItemView == null) {
-            listItemView = LayoutInflater.from(getContext()).inflate(
+        if (convertView == null) {
+            convertView = LayoutInflater.from(getContext()).inflate(
                     R.layout.list_item, parent, false);
         }
 
-        // Get the {@link Word} object located at this position in the list
-        Word currentWord = getItem(position);
+        // Get the {@link SightOfAttraction} object located at this position in the list
+        SightOfAttraction currentSightOfAttraction = getItem(position);
 
-        // Find the TextView in the list_item.xml layout with the ID miwok_text_view
-        TextView titleTextView = (TextView) listItemView.findViewById(R.id.description_text_view);
-        // Get the version name from the current Word object and
+        // Find the TextView in the list_item.xml layout with the ID title_sights_text_view
+        TextView titleTextView = (TextView) convertView.findViewById(R.id.title_sights_text_view);
+        // Get the version name from the current SightOfAttraction object and
         // set this text on the name TextView
-        titleTextView.setText(currentWord.getTitleSights());
+        titleTextView.setText(currentSightOfAttraction.getTitleSight());
 
-        // Find the TextView in the list_item.xml layout with the ID default_text_view
-        TextView descriptionSights = (TextView) listItemView.findViewById(R.id.title_sights_text_view);
+        // Find the TextView in the list_item.xml layout with the ID description_text_view
+        TextView descriptionSights = (TextView) convertView.findViewById(R.id.description_text_view);
         // Get the version number from the current AndroidFlavor object and
         // set this text on the number TextView
-        descriptionSights.setText(currentWord.getDescriptionsSights());
+        descriptionSights.setText(currentSightOfAttraction.getDescriptionsSightOne());
 
         // Find the ImageView in the list_item.xml layout with the ID image
-        ImageView imageView = (ImageView) listItemView.findViewById(R.id.image);
-        if (currentWord.hasImage()) {
-            // Set the ImageView to the image resource specified in the current Word
-            imageView.setImageResource(currentWord.getImageResourceID());
+        ImageView imageView = (ImageView) convertView.findViewById(R.id.image);
+        if (currentSightOfAttraction.hasImage()) {
+            // Set the ImageView to the image resource specified in the current SightOfAttraction
+            imageView.setImageResource(currentSightOfAttraction.getImageResourceIDOne());
 
             // Make sure the view is visible
             imageView.setVisibility(View.VISIBLE);
@@ -77,7 +77,7 @@ public class TourGuideAdapter extends ArrayAdapter<Word> {
         }
 
         // Set the theme color for the list item
-        View textContainer = listItemView.findViewById(R.id.text_container);
+        View textContainer = convertView.findViewById(R.id.text_container);
         // Find the color that the resource ID maps to
         int color = ContextCompat.getColor(getContext(), mColorResourceId);
         // Set the background color of the text container View
@@ -86,6 +86,6 @@ public class TourGuideAdapter extends ArrayAdapter<Word> {
 
         // Return the whole list item layout (containing 2 TextViews)
         // so that it can be shown in the ListView
-        return listItemView;
+        return convertView;
     }
 }

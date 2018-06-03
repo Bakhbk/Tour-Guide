@@ -8,13 +8,13 @@
     <!-- Category name for monuments [CHAR LIMIT=20] -->
     <string name="category_monuments">Monuments</string>
 
-    <!-- Category name for the vocabulary words for bridges [CHAR LIMIT=20] -->
+    <!-- Category name for the vocabulary sightOfAttractions for bridges [CHAR LIMIT=20] -->
     <string name="category_bridges">Bridges</string>
 
-    <!-- Category name for the vocabulary words for museums [CHAR LIMIT=20] -->
+    <!-- Category name for the vocabulary sightOfAttractions for museums [CHAR LIMIT=20] -->
     <string name="category_museums">Museums</string>
 
-    <!-- Category name for the vocabulary words for family cathedrals_churches [CHAR LIMIT=20] -->
+    <!-- Category name for the vocabulary sightOfAttractions for family cathedrals_churches [CHAR LIMIT=20] -->
     <string name="category_cathedrals_churches">Cathedrals</string>
 
     <!--Header name-->
